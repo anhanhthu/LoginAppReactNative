@@ -20,10 +20,7 @@ export const Init = () =>{
 export const setLoginState = (loginData) =>{
     return async dispatch =>{
         if(loginData.token !== null){
-            console.log('TOKEN: ', loginData.token);
             await AsyncStorage.setItem('token', loginData.token);
-            console.log('TOKEN STORED');
-        
         dispatch({
             type: 'SET_AUTH_LOGIN',
             payload: loginData,

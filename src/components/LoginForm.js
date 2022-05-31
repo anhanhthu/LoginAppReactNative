@@ -61,24 +61,6 @@ const LoginForm = ()=>{
 
           }
 
-        // const data = new FormData();
-        // data.append('username', username);
-        // data.append('password', password);
-
-
-        // axios({
-        //     method: "post",
-        //     url: "https://qlsc.maysoft.io/server/api/auth/login",
-        //     data: data,
-        //     headers: { "Content-Type": "multipart/form-data", "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI3IiwianRpIjoiMWM4ZGU3YTNjMjI2M2QzYjYzNzM3NTJiMWEzOTFiNzU4ZjdlMjRiNzVjZjdlYjc0ODgzYTkyZWNjYjIxZTE3M2NmZjEwNjRiNzhmY2U0ODYiLCJpYXQiOjE2NTM4NDYwNzgsIm5iZiI6MTY1Mzg0NjA3OCwiZXhwIjoxNjg1MzgyMDc4LCJzdWIiOiJoR2I1R0NUbjJPOWhpWE5tNVdLUSIsInNjb3BlcyI6W119.czyeOiZ6S1c62AiexFVrzowvzDfnuWZkpaCTuZ_HbFooEO6mB-JuXRwRLvvpGwjqTsnuQOm-OLVD4zoFQ_YyxdBBUvXd9S2rjEXm3kDXZx0IKYfXRmxT2MDC_EI7KXkfckn0BIXLU4d8GUmUeKEIXNGZiN6vprMf9rZnn9NWCjeSZh8dNw5SpZ419QibfvHhIHtS0QZZbhumkaJ__0ghyutDh1ewmulqkxIgiHE-HJgRBt9TIOzbs8-JM9y72RDPUFHcqHayDsT-KYowDJzSgOQ32pZYbcPxtii_gD6U8RqthdezyW9QVNLvem4dpiOwR09xj-ar4m_Rm--wqpSLgL2-_iQFFO_y8UDCruMnoC0Pde-dgF6Rd3PouG7zgLLtfvMnzcQWagvlEWUVWV2yojtHBYw-QvVq_2UgSsPk4cTkT9A8uWldv4CmzHBhbpyfSUSZwluGf0jorruxWtthNmDYn8Vaqy-cV52nq7AHisac5-UOBwUUeI-uXPvbA49WwS7LEY8YaB0XuOGD0p_kWGAPciLikROY5PZBkPVy6fKJeb3m7BylMuU4yGHmAsi0jE8ok0hzD-R3HLKFzzZARiVU1lzRQnKdGkL1GnM8N_JTxurQ3c_o9t1WqajcyjxkWUTSMk3uNX1AnXSZwgbl5rWA_8LeVoTaoODBFIzukKM" },
-        //   }).then(function (response) {
-        //       //handle success
-        //       if(response.data.status){
-        //         navigation.navigate('Home');
-        //       }
-        //     }).catch(function (response) {
-        //       //handle error
-        //     });
     }
     return(
         <View style={styles.container}>

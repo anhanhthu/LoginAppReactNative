@@ -44,7 +44,6 @@ const Home = () =>{
                 const reports = response.data.data.data;
                 let i;
                 for(i=0;i<reports.length;i++){
-                    console.log(reports[i].createTime);
                     if(reports[i].createTime>startTime && reports[i].createTime<endTime){
                         reportFilters.push(reports[i]);
                     }
